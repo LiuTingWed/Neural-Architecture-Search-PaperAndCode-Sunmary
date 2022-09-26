@@ -39,7 +39,7 @@ LidarNAS | ECCV | LidarNAS: Unifying and Searching Neural Architectures for 3D P
 ### **Image Restoration**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
-- | ECCV | Spectrum-aware and Transferable Architecture Search for Hyperspectral Image Restoration| Paper/Code|
+|- | ECCV | Spectrum-aware and Transferable Architecture Search for Hyperspectral Image Restoration| Paper/Code|
 # 2021
 
 ### **Object Classfication/Detection**
