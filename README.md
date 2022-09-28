@@ -2,9 +2,70 @@
 
 This repository collects recent NAS based methods and provide a summary (Paper and Code) by year and task. We hope this repo can help you better understand the trend of NAS era.
 
+---
+
+#**<h5 id='Content'>Content</h5>**
++ ## 2022
+    - [Object Classfication/Detection](#OC22)
+    - [Stereo Matching](#SM22)
+    - [Super Resolution](#SR22)
+    - [3D Point Clouds](#3PC22)
+    - [Medical](#Med22)
+    - [Deep Image Prior](#DIP22)
+    - [Image Restoration](#IR22)
+    - [Loss Function](#LF22)
++ ## 2021
+    - [Object Classfication/Detection](#OC21)
+    - [Image Segmentation](#Seg21)
+    - [Video Action Segmentation](#VASeg21)
+    - [Video Recognition](#VR21)
+    - [Model Pruning](#MP21)
+    - [Image Super Resolution](#SR21)
+    - [Point Clouds](#PC21)
+    - [Medical](#Med21)
+    - [Re-Identification/Detection](#ReID21)
+    - [Adversarial Attack](#AA21)
+    - [Image Restoration](#IR21)
+    - [Image Deblurring](#ID21)
+    - [Pose Estimation](#PE21)
+    - [Video Pose Estimation](#VPE21)
+    - [Loss Function](#LF21)
++ ## 2020
+    - [Object Classfication/Detection](#OC20)
+    - [Image Segmentation](#Seg20)
+    - [Video Classification](#VC20)
+    - [Lane Detection](#LD20)
+    - [Image Super-Resolution](#ISR20)
+    - [Image Restoration](#IR20)
+    - [Medical](#Med20)
+    - [3D Pose Estimation](#3HPE20)
+    - [Face Detection](#FD20)
+    - [Face Anti-Spoofing](#FAS20)
+    - [Scene Text Recognition](#STR20)
+    - [Adversarial Attack](#AA20)
+    - [Model Defense](#AA20)
+    - [Bad Weather Removal](#BWR20)
+    - [Image Denoising](#ID20)
+    - [Deep Image Prior](#DIP20)
+    - [Deep Stereo Matching](#DSM20)
+    - [Crowd Counting](#CC20)
+    - [Model Pruning](#MP20)
+    - [Text Representation](#TR20)
++ ## 2019
+    - [Object Classfication/Detection](#OC19)
+    - [Image Segmentation](#Seg19)
+    - [Re-Identification/Detection](#ReID19)
+    - [Multimodal Fusion](#MF19)
+    - [Model Pruning](#MP19)
++ ## 2018
+    - [Object Classfication/Detection](#OC18)
+
++ ## [Survey](#Survey)
+
+---
 # 2022
 
-### **Object Classfication/Detection**
+### **<h5 id='OC22'>Object Classfication/Detection</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | BMNAS | AAAI | Bilevel Multimodal Neural Architecture Search| [Paper](https://arxiv.org/pdf/2104.09379.pdf)/[Code](https://github.com/Somedaywilldo/BM-NAS)|
@@ -38,46 +99,43 @@ ViTAS | ECCV | Vision Transformer Architecture Search| [Paper](https://arxiv.org
 DFNAS | ECCV | Data-Free Neural Architecture Search via Recursive Label Calibration| [Paper](https://arxiv.org/pdf/2112.02086.pdf)/[Code](https://github.com/liuzechun/Data-Free-NAS)|
 BaLeNAS | ECCV | Differentiable Architecture Search via the Bayesian Learning Rule| [Paper](https://arxiv.org/pdf/2111.13204.pdf)/Code|
 
-### **Stereo Matching**
+### **<h5 id='SM22'>Stereo Matching</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 EASNet| ECCV | Searching Elastic and Accurate Network Architecture for Stereo Matching| [Paper](https://arxiv.org/pdf/2207.09796.pdf)/[Code](https://github.com/HKBU-HPML/EASNet.git)|
 
-### **Super Resolution**
+### **<h5 id='SR22'>Image Super Resolution</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 CANAS| ECCV | Compiler-Aware Neural Architecture Search for On-Mobile Real-time Super-Resolution| [Paper](https://arxiv.org/pdf/2207.12577.pdf)/[Code](https://github.com/wuyushuwys/compiler-aware-nas-sr)|
 
-### **3D Point Clouds**
+### **<h5 id='3PC22'>3D Point Clouds</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 LidarNAS | ECCV | Unifying and Searching Neural Architectures for 3D Point Clouds| Paper/Code|
-
-### **Medical**
+### **<h5 id='Med22'>Medical</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 HyperSegNAS | CVPR | Bridging One-Shot Neural Architecture Search with 3D Medical Image Segmentation using HyperNet| [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Peng_HyperSegNAS_Bridging_One-Shot_Neural_Architecture_Search_With_3D_Medical_Image_CVPR_2022_paper.pdf)/Code|
 
-### **Deep Image Prior**
+### **<h5 id='DIP22'>Deep Image Prior</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | ISNAS| CVPR | Image-Specific Neural Architecture Search for Deep Image Prior| [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Arican_ISNAS-DIP_Image-Specific_Neural_Architecture_Search_for_Deep_Image_Prior_CVPR_2022_paper.pdf)/[Code](https://github.com/ozgurkara99/ISNAS-DIP)|
 
-### **Image Restoration**
+### **<h5 id='IR22'>Image Restoration</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 |- | ECCV | Spectrum-aware and Transferable Architecture Search for Hyperspectral Image Restoration| Paper/Code|
-
-### **Loss Function**
+### **<h5 id='LR22'>Loss Function</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 |AutoLossZero | CVPR | Searching Loss Functions from Scratch for Generic Tasks| [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_AutoLoss-Zero_Searching_Loss_Functions_From_Scratch_for_Generic_Tasks_CVPR_2022_paper.pdf)/[Code](https://github.com/cpsxhao/AutoLoss-Zero)|
 |AutoLossGMS | CVPR | Searching Generalized Margin-based Softmax Loss Function for Person Re-identification| [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_AutoLoss-GMS_Searching_Generalized_Margin-Based_Softmax_Loss_Function_for_Person_Re-Identification_CVPR_2022_paper.pdf)/Code|
 
-
+- [Back to content](#Content)
 # 2021
-
-### **Object Classfication/Detection**
+### **<h5 id='OC21'>Object Classfication/Detection</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | NASTransfer | AAAI | NASTransfer: Analyzing Architecture Transferability in Large Scale Neural Architecture Search | [Paper](https://arxiv.org/pdf/2006.13314.pdf)/Code  |
@@ -119,78 +177,81 @@ HyperSegNAS | CVPR | Bridging One-Shot Neural Architecture Search with 3D Medica
 | AutoGL | NeurIPS | Graph Differentiable Architecture Search with Structure Learning|[Paper](https://papers.nips.cc/paper/2021/file/8c9f32e03aeb2e3000825c8c875c4edd-Paper.pdf)/[Code](https://github.com/THUMNLab/AutoGL)|
 | AutoFormerV2 | NeurIPS | Searching the Search Space of Vision Transformer|[Paper](https://papers.nips.cc/paper/2021/file/48e95c45c8217961bf6cd7696d80d238-Paper.pdf)/[Code](https://github.com/microsoft/Cream)|
 | TSE | NeurIPS | Speedy Performance Estimation for Neural Architecture Search|[Paper](https://papers.nips.cc/paper/2021/file/2130eb640e0a272898a51da41363542d-Paper.pdf)/[Code](https://github.com/rubinxin/TSE)|
-### **Image Segmentation**
+| FNA++ | TPAMI | Fast Network Adaptation via Parameter Remapping and Architecture Search|[Paper](https://arxiv.org/pdf/2006.12986.pdf)/[Code](hhttps://github.com/JaminFong/FNA)
+
+### **<h5 id='Seg21'>Image Segmentation</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | DCNAS | CVPR | Densely Connected Neural Architecture Search for Semantic Image Segmentation | [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_DCNAS_Densely_Connected_Neural_Architecture_Search_for_Semantic_Image_Segmentation_CVPR_2021_paper.pdf)/Code  |
-
-### **Video Action Segmentation**
+| AutoRTNet | IJCV | Real-Time Semantic Segmentation via Auto Depth, Downsampling Joint Decision and Feature Aggregation| [Paper](https://arxiv.org/pdf/2003.14226.pdf)/Code  |
+### **<h5 id='VASeg21'>Video Action Segmentation</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | Global2Local | CVPR | Efficient Structure Search for Video Action Segmentation | [Paper](https://arxiv.org/pdf/2101.00910.pdf)/Code  |
 
-### **Video Recognition**
+### **<h5 id='VR21'>Video Recognition</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | AutoTSNet | ICCV | Searching for Two-Stream Models in Multivariate Space for Video Recognition| [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Gong_Searching_for_Two-Stream_Models_in_Multivariate_Space_for_Video_Recognition_ICCV_2021_paper.pdf)/Code  |
 
-### **Model Pruning**
+### **<h5 id='MP21'>Model Pruning</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | RTSRNAS | ICCV | Achieving on-Mobile Real-Time Super-Resolution with Neural Architecture and Pruning Search | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_NAS-FCOS_Fast_Neural_Architecture_Search_for_Object_Detection_CVPR_2020_paper.pdf)/Code
 
-### **Point Cloud**
+### **<h5 id='PC21'>Point Cloud</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | PointSeaNet | ICCV | Differentiable Convolution Search for Point Cloud Processing| [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Nie_Differentiable_Convolution_Search_for_Point_Cloud_Processing_ICCV_2021_paper.pdf)/Code |
 
-### **Medical**
+### **<h5 id='Med21'>Medical</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | DiNTS | CVPR | Differentiable Neural Network Topology Search for 3D Medical Image Segmentation | [Paper](https://arxiv.org/pdf/2103.15954.pdf)/Code  |
 
-### **Re-Identification/Detection**
+### **<h5 id='ReID21'>Re-Identification/Detection</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | CDS | CVPR | Combined Depth Space based Architecture Search For Person Re-identification | [Paper](https://arxiv.org/pdf/2104.04163.pdf)/Code  |
 | NFS | CVPR | Neural Feature Search for RGB-Infrared Person Re-Identification | [Paper](https://arxiv.org/pdf/2104.02366.pdf)/Code  |
 | CMNAS | ICCV | Cross-Modality Neural Architecture Search for Visible-Infrared Person Re-Identification | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Fu_CM-NAS_Cross-Modality_Neural_Architecture_Search_for_Visible-Infrared_Person_Re-Identification_ICCV_2021_paper.pdf)/[Code](https://github.com/JDAI-CV/CM-NAS)  |
 
-### **Adversarial Attack**
+### **<h5 id='AA21'>Adversarial Attack</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | AdvRush | ICCV | Searching for Adversarially Robust Neural Architectures | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Mok_AdvRush_Searching_for_Adversarially_Robust_Neural_Architectures_ICCV_2021_paper.pdf)/[Code](https://github.com/nutellamok/advrush)  |
-### **Image Restoration**
+
+### **<h5 id='IR21'>Image Restoration</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | TASNet | ICCV | Searching for Controllable Image Restoration Networks| [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Searching_for_Controllable_Image_Restoration_Networks_ICCV_2021_paper.pdf)/[Code](https://github.com/ghimhw/TASNet)|
 
-### **Image Deblurring**
+### **<h5 id='ID21'>Image Deblurring</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | PyNAS | ICCV | Pyramid Architecture Search for Real-Time Image Deblurring| [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Hu_Pyramid_Architecture_Search_for_Real-Time_Image_Deblurring_ICCV_2021_paper.pdf)/Code|
 
-### **Pose Estimation**
+### **<h5 id='PE21'>Pose Estimation</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | NPPNet | ICCV | Neural Architecture Search for Joint Human Parsing and Pose Estimation| [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_NAS-FCOS_Fast_Neural_Architecture_Search_for_Object_Detection_CVPR_2020_paper.pdf)/[Code](https://github.com/GuHuangAI/NPP)|
 
-### **Video Pose Estimation**
+### **<h5 id='VPE21'>Video Pose Estimation</h5>**
+
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | ViPNAS | CVPR | Efficient Video Pose Estimation via Neural Architecture Search | [Paper](https://arxiv.org/pdf/2105.10154.pdf)/[Code](https://www.notion.so/dd9cc2c1457e4e9fab10ae104685eb81)  |
 
-### **Loss Function**
+### **<h5 id='LR21'>Loss Function</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | AutoLoss | ICLR | Loss Function Discovery for Object Detection via Convergence-Simulation Driven Search  | [Paper](https://openreview.net/pdf?id=5jzlpHvvRk)/[Code](https://github.com/PerdonLiu/CSE-Autoloss) |
 | AutoSeg-Loss: | ICLR |Searching Metric Surrogates for Semantic Segmentation   | [Paper](https://openreview.net/pdf?id=MJAqnaC2vO1)/[Code](https://github.com/fundamentalvision/Auto-Seg-Loss) |
 | AutoBalance | NeurIP | Optimized Loss Functions for Imbalanced Data | [Paper](https://papers.nips.cc/paper/2021/file/191f8f858acda435ae0daf994e2a72c2-Paper.pdf)/Code |
 | APNAS | NeurIP | Searching Parameterized AP Loss for Object Detection | [Paper](https://papers.nips.cc/paper/2021/file/191f8f858acda435ae0daf994e2a72c2-Paper.pdf)/Code |
-
+- [Back to content](#Content)
 # 2020
-
-### **Object Classfication/Detection**
+### **<h5 id='OC20'>Object Classfication/Detection</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | SMNAS | AAAI | SM-NAS: Structural-to-Modular Neural Architecture Search for Object Detection| [Paper](https://arxiv.org/pdf/1911.09929.pdf)/Code|
@@ -246,110 +307,106 @@ ABS | ECCV | Angle-based Search Space Shrinking for Neural Architecture Search| 
 |SemiNAS | NeurIPS | Semi-Supervised Neural Architecture Search| [Paper](https://proceedings.neurips.cc/paper/2020/file/77305c2f862ad1d353f55bf38e5a5183-Paper.pdf)/[Code](https://github.com/Zumbalamambo/SemiNAS)|
 |Arch2vec | NeurIPS | Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?| [Paper](https://proceedings.neurips.cc/paper/2020/file/937936029af671cf479fa893db91cbdd-Paper.pdf)/[Code](https://github.com/MSU-MLSys-Lab/arch2vec)|
 |BONAS | NeurIPS |  Bridging the Gap between Sample-based and One-shot Neural Architecture Search with BONAS| [Paper](https://proceedings.neurips.cc/paper/2020/file/13d4635deccc230c944e4ff6e03404b5-Paper.pdf)/[Code](https://github.com/pipilurj/BONAS)|
-### **Image Segmentation**
+### **<h5 id='Seg20'>Image Segmentation</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | GAS | CVPR | Graph-guided Architecture Search for Real-time Semantic Segmentation | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Graph-Guided_Architecture_Search_for_Real-Time_Semantic_Segmentation_CVPR_2020_paper.pdf)/Code |
 | FasterSeg | ICLR | Searching for Faster Real-time Semantic Segmentation| [Paper](https://openreview.net/pdf?id=BJgqQ6NYvB)/[Code](https://github.com/TAMU-=VITA/FasterSeg) |
 | Auto-Panoptic | NeurIPS | Cooperative Multi-Component Architecture Search for Panoptic Segmentation | [Paper](https://proceedings.neurips.cc/paper/2020/file/ec1f764517b7ffb52057af6df18142b7-Paper.pdf)/[Code](https://github.com/Jacobew/AutoPanoptic) |
-### **Video Classification**
+### **<h5 id='VC20'>Video Classification</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | AttentionNAS | ECCV | Spatiotemporal Attention Cell Search for Video Classification | [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530443.pdf)/Code |
 | AssembleNet | ICLR | Searching for Multi-Stream Neural Connectivity in Video Architectures | [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530443.pdf)/[Code](https://github.com/leaderj1001/AssembleNet) |
-### **Lane Detection**
+
+### **<h5 id='LD20'>Lane Detection</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | CurveLaneNAS | ECCV | Unifying Lane-Sensitive Architecture Search and Adaptive Point Blending | [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600681.pdf)/Code |
 
-### **Image Super-Resolution**
+### **<h5 id='ISR20'>Image Super-Resolution</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | ESRNAS | AAAI | Efficient Residual Dense Block Search for Image Super-Resolution| [Paper](https://arxiv.org/pdf/1909.11409.pdf)/Code|
-
-### **Image Restoration**
+### **<h5 id='IR20'>Image Restoration</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | CLEARER | NeurIPS | Multi-Scale Neural Architecture Search for Image Restoration| [Paper](https://proceedings.neurips.cc/paper/2020/file/c6e81542b125c36346d9167691b8bd09-Paper.pdf)/[Code](https://github.com/limit-scu)|
 
-
-### **3D Medical Image Segmentation**
+### **<h5 id='Med20'>Medical</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | C2FNAS | CVPR | Coarse-to-Fine Neural Architecture Search for 3D Medical Image Segmentation | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_C2FNAS_Coarse-to-Fine_Neural_Architecture_Search_for_3D_Medical_Image_Segmentation_CVPR_2020_paper.pdf)/Code  |
 
-### **3D Human Pose Estimation**
+### **<h5 id='3HPE20'>3D Pose Estimation</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | PANAS | ECCV | Towards Part-aware Monocular 3D Human Pose Estimation: An Architecture Search Approach | [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480715.pdf)/Code  |
 
-### **Face Detection**
+### **<h5 id='FD20'>Face Detection</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | BFBox | CVPR | BFBox Searching Face-Appropriate Backbone and Feature Pyramid Network for Face | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_BFBox_Searching_Face-Appropriate_Backbone_and_Feature_Pyramid_Network_for_Face_CVPR_2020_paper.pdf)/[Code](https://github.com/ZitongYu/CDCN) |
 
-### **Face Anti-Spoofing**
+### **<h5 id='FAS20'>Face Anti-Spoofing</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | CDCNAS | CVPR | Searching Central Difference Convolutional Networks for Face Anti-Spoofing| [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)/Code |
 
-
-### **Scene text recognition**
+### **<h5 id='STR20'>Scene Text Recognition</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | AutoSTR | ECCV | Efficient Backbone Search for Scene Text Recognition | [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530443.pdf)/[Code](https://github.com/AutoML-Research/AutoSTR)|
 
-### **Adversarial Attack**
+### **<h5 id='AA20'>Adversarial Attack</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | RobNets | CVPR | When NAS Meets Robustness: In Search of Robust Architectures against Adversarial Attacks | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_When_NAS_Meets_Robustness_In_Search_of_Robust_Architectures_Against_CVPR_2020_paper.pdf)/[Code](https://github.com/gmh14/RobNets)  |
 
-### **Model defense**
+### **<h5 id='MD20'>Model Defense</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | ABanditNAS | ECCV | Anti-Bandit Neural Architecture Search for Model Defense | [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580069.pdf)/Code |
 
-### **Bad Weather Removal**
+### **<h5 id='BWR20'>Bad Weather Removal</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | AIOnet | CVPR | All in One Bad Weather Removal using Architectural Search | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/LGuo_When_NAS_Meets_Robustness_In_Search_of_Robust_Architectures_Against_CVPR_2020_paper.pdf)/Code|
 
-### **Image Denoising**
+### **<h5 id='ID20'>Image Denoising</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | HiNAS | CVPR | Memory-Efficient Hierarchical Neural Architecture Search for Image Denoising | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Memory-Efficient_Hierarchical_Neural_Architecture_Search_for_Image_Denoising_CVPR_2020_paper.pdf)/Code|
 
-
-### **Deep Image Prior**
+### **<h5 id='DIP20'>Deep Image Prior</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | NASDIP | ECCV | Learning Deep Image Prior with Neural Architecture Search| [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630426.pdf)/[Code](https://github.com/YunChunChen/NAS-DIP-pytorch)|
 
-### **Deep Stereo Matching**
+### **<h5 id='DSM20'>Deep Stereo Matching</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | HNAS | NeurIPS | Hierarchical Neural Architecture Search for Deep Stereo Matching| [Paper](https://proceedings.neurips.cc/paper/2020/file/fc146be0b230d7e0a92e66a6114b840d-Paper.pdf)/[Code](https://github.com/XuelianCheng/LEAStereo)|
-
-### **Crowd Counting**
+### **<h5 id='CC20'>Crowd Counting</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | NASCount | ECCV |Counting-by-Density with Neural Architecture Search| [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670749.pdf)/Code|
 
-### **Model Pruning**
+### **<h5 id='MP20'>Model Pruning</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | NASFCOS | CVPR | Fast Neural Architecture Search for Object Detection | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_NAS-FCOS_Fast_Neural_Architecture_Search_for_Object_Detection_CVPR_2020_paper.pdf)/[Code](https://github.com/Lausannen/NAS-FCOS)
 | BPE | CVPR | Rethinking Performance Estimation in Neural Architecture Search | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_NAS-FCOS_Fast_Neural_Architecture_Search_for_Object_Detection_CVPR_2020_paper.pdf)/[Code](https://github.com/CVPR2020-ID1073/Rethinking-Performance-Estimation-in-Neural-Architecture-Search)|
 | BlockSwap | ICLR | Fisher-guided Block Substitution for Network Compression on a Budget| [Paper](https://openreview.net/pdf?id=SklkDkSFPB)/[Code](https://github.com/BayesWatch/pytorch-blockswap) |
 
-### **Text Representation**
+### **<h5 id='TR20'>Text Representation</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | TextNAS | AAAI | A Neural Architecture Search Space tailored for Text Representation| [Paper](https://arxiv.org/pdf/1912.10729.pdf)/[Code](https://github.com/microsoft/TextNAS)|
+- [Back to content](#Content)
 
 # 2019
-
-### **Object Classfication/Detection**
+### **<h5 id='OC19'>Object Classfication/Detection</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | AENAS | AAAI | Aging Evolution for Image Classifier Architecture Search | [Paper](https://www.cse.fau.edu/~xqzhu/courses/cap6619/aging.evolution.pdf)/Code|
@@ -371,12 +428,13 @@ ABS | ECCV | Angle-based Search Space Shrinking for Neural Architecture Search| 
 | SETN | ICCV | One-Shot Neural Architecture Search via Self-Evaluated Template Network| [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Dong_One-Shot_Neural_Architecture_Search_via_Self-Evaluated_Template_Network_ICCV_2019_paper.pdf)/Code|
 | FPNAS | ICCV | Fast and Practical Neural Architecture Search| [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Dong_One-Shot_Neural_Architecture_Search_via_Self-Evaluated_Template_Network_ICCV_2019_paper.pdf)/[Code](https://github.com/jiequancui/FPNASNet)|
 | Auto-FPN | ICCV | Automatic Network Architecture Adaptation for Object Detection Beyond Classification| [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Auto-FPN_Automatic_Network_Architecture_Adaptation_for_Object_Detection_Beyond_Classification_ICCV_2019_paper.pdf)/Code|
+| SNAS | MICCAI | Scalable Neural Architecture Search for 3D Medical Image Segmentation| [Paper](https://arxiv.org/pdf/1906.05956.pdf)/Code|
 | XNAS | NeurIPS | Neural Architecture Search with Expert Advice| [Paper](https://papers.nips.cc/paper/2019/file/00e26af6ac3b1c1c49d7c3d79c60d000-Paper.pdf)/Code|
 | DetNAS | NeurIPS | Backbone Search for Object Detection| [Paper](https://papers.nips.cc/paper/2019/file/228b25587479f2fc7570428e8bcbabdc-Paper.pdf)/[Code](https://github.com/megvii-model/DetNAS)|
 | NATS | NeurIPS | Efficient Neural Architecture Transformation Search in Channel-Level for Object Detection| [Paper](https://papers.nips.cc/paper/2019/file/3aaa3db6a8983226601cac5dde15a26b-Paper.pdf)/Code|
 | EFAS | NeurIPS | Efficient Forward Architecture Search| [Paper](https://papers.nips.cc/paper/2019/file/6c468ec5a41d65815de23ec1d08d7951-Paper.pdf)/[Code](https://github.com/microsoft/petridishnn)|
 
-### **Semantic Image Segmentation**
+### **<h5 id='Seg19'>Image Segmentation</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | FastNAS | CVPR | Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Nekrasov_Fast_Neural_Architecture_Search_of_Compact_Semantic_Segmentation_Models_via_CVPR_2019_paper.pdf)/[Code](https://github.com/DrSleep/nas-segm-pytorch)|
@@ -384,23 +442,24 @@ ABS | ECCV | Angle-based Search Space Shrinking for Neural Architecture Search| 
 AutoDeepLab | CVPR | Hierarchical Neural Architecture Search for Semantic Image Segmentation | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Auto-DeepLab_Hierarchical_Neural_Architecture_Search_for_Semantic_Image_Segmentation_CVPR_2019_paper.pdf)/[Code](https://github.com/tensorflow/models/tree/master/research/deeplab)|
 CASNet | CVPR | Customizable Architecture Search for Semantic Segmentation | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Customizable_Architecture_Search_for_Semantic_Segmentation_CVPR_2019_paper.pdf)/Code|
 
-### **Re-Identification/Detection**
+### **<h5 id='ReID19'>Re-Identification/Detection</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | Auto-ReID | ICCV | Searching for a Part-Aware ConvNet for Person Re-Identification | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Quan_Auto-ReID_Searching_for_a_Part-Aware_ConvNet_for_Person_Re-Identification_ICCV_2019_paper.pdf)/Code  |
 
-### **Multimodal Fusion**
+### **<h5 id='MF19'>Multimodal Fusion</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 MFAS | CVPR | Multimodal Fusion Architecture Search | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Perez-Rua_MFAS_Multimodal_Fusion_Architecture_Search_CVPR_2019_paper.pdf)/[Code](https://github.com/jperezrua/mfas)|
 
-### **Model Pruning**
+### **<h5 id='MP19'>Model Pruning</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | NPTAS | NeurIPS | Network Pruning via Transformable Architecture Search| [Paper](https://papers.nips.cc/paper/2019/file/6c468ec5a41d65815de23ec1d08d7951-Paper.pdf)/[Code](https://github.com/D-X-Y/NAS-Projects)|
-# 2018
+- [Back to content](#Content)
 
-### **Object Classfication/Detection**
+# 2018
+### **<h5 id='OC18'>Object Classfication/Detection</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 NASNet | CVPR | Learning Transferable Architectures for Scalable Image Recognition | [Paper](https://arxiv.org/pdf/1707.07012.pdf)/[Code](https://github.com/aussetg/nasnet.pytorch)|
@@ -408,8 +467,9 @@ BlockQNN | CVPR | Practical Block-wise Neural Network Architecture Generation | 
 PNAS | ECCV | Progressive Neural Architecture Search | [Paper](https://arxiv.org/pdf/1712.00559.pdf)/[Code](https://github.com/titu1994/progressive-neural-architecture-search)|
 DPP-Net | ECCV | Device-aware Progressive Search for Pareto-optimal Neural Architectures | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jin-Dong_Dong_DPP-Net_Device-aware_Progressive_ECCV_2018_paper.pdf)/Code|
 HEAS| ICLR | Hierarchical Representations for Efficient Architecture Search | [Paper](https://openreview.net/pdf?id=BJQRKzbA-)/Code|
+- [Back to content](#Content)
 
-#Survey
+#**<h5 id='Survey'>Survey</h5>**
 | Pub. | Title | Links |
 | --- | --- | --- |
 | ICLR20 | NAS evaluation is frustratingly hard| [Paper](https://iclr.cc/virtual_2020/poster_H1gDNyrKDS.html)/[Code](https://github.com/antoyang/NAS-Benchmark) |
