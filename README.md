@@ -60,8 +60,7 @@ This repository collects recent NAS based methods and provide a summary (Paper a
 + ## 2018
     - [Object Classfication/Detection](#OC18)
 
-+ ## [Survey](#Survey)
-
++ ## [Survey](#Sur)
 ---
 # 2022
 
@@ -468,8 +467,7 @@ PNAS | ECCV | Progressive Neural Architecture Search | [Paper](https://arxiv.org
 DPP-Net | ECCV | Device-aware Progressive Search for Pareto-optimal Neural Architectures | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jin-Dong_Dong_DPP-Net_Device-aware_Progressive_ECCV_2018_paper.pdf)/Code|
 HEAS| ICLR | Hierarchical Representations for Efficient Architecture Search | [Paper](https://openreview.net/pdf?id=BJQRKzbA-)/Code|
 - [Back to content](#Content)
-
-#<h1 id='Survey'>Survey</h1>
+#**<h5 id='Sur'>Survey</h5>**
 | Pub. | Title | Links |
 | --- | --- | --- |
 | ICLR20 | NAS evaluation is frustratingly hard| [Paper](https://iclr.cc/virtual_2020/poster_H1gDNyrKDS.html)/[Code](https://github.com/antoyang/NAS-Benchmark) |
