@@ -467,6 +467,7 @@ PNAS | ECCV | Progressive Neural Architecture Search | [Paper](https://arxiv.org
 DPP-Net | ECCV | Device-aware Progressive Search for Pareto-optimal Neural Architectures | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jin-Dong_Dong_DPP-Net_Device-aware_Progressive_ECCV_2018_paper.pdf)/Code|
 HEAS| ICLR | Hierarchical Representations for Efficient Architecture Search | [Paper](https://openreview.net/pdf?id=BJQRKzbA-)/Code|
 - [Back to content](#Content)
+
 #**<h5 id='Sur'>Survey</h5>**
 | Pub. | Title | Links |
 | --- | --- | --- |
