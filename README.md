@@ -468,7 +468,7 @@ DPP-Net | ECCV | Device-aware Progressive Search for Pareto-optimal Neural Archi
 HEAS| ICLR | Hierarchical Representations for Efficient Architecture Search | [Paper](https://openreview.net/pdf?id=BJQRKzbA-)/Code|
 - [Back to content](#Content)
 
-#Survey
+# Survey
 **<h5 id='Sur'></h5>**
 | Pub. | Title | Links |
 | --- | --- | --- |
