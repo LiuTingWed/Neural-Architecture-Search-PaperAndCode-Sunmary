@@ -4,9 +4,7 @@ This repository collects recent NAS based methods and provide a summary (Paper a
 
 ---
 
-<h5 id='Content'></h5>
-
-# Content
+#<h1 id='Content'>Content</h1>
 + ## 2022
     - [Object Classfication/Detection](#OC22)
     - [Stereo Matching](#SM22)
@@ -49,7 +47,7 @@ This repository collects recent NAS based methods and provide a summary (Paper a
     - [Bad Weather Removal](#BWR20)
     - [Image Denoising](#ID20)
     - [Deep Image Prior](#DIP20)
-    - [Deep Stereo Matching](#DSM20)
+    - [Stereo Matching](#SM20)
     - [Crowd Counting](#CC20)
     - [Model Pruning](#MP20)
     - [Text Representation](#TR20)
@@ -57,6 +55,7 @@ This repository collects recent NAS based methods and provide a summary (Paper a
     - [Object Classfication/Detection](#OC19)
     - [Image Segmentation](#Seg19)
     - [Re-Identification/Detection](#ReID19)
+    - [Stereo Matching](#SM19)
     - [Multimodal Fusion](#MF19)
     - [Model Pruning](#MP19)
 + ## 2018
@@ -384,7 +383,7 @@ ABS | ECCV | Angle-based Search Space Shrinking for Neural Architecture Search| 
 | --- | --- | --- | --- |
 | NASDIP | ECCV | Learning Deep Image Prior with Neural Architecture Search| [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630426.pdf)/[Code](https://github.com/YunChunChen/NAS-DIP-pytorch)|
 
-### **<h5 id='DSM20'>Deep Stereo Matching</h5>**
+### **<h5 id='SM20'>Stereo Matching</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
 | HNAS | NeurIPS | Hierarchical Neural Architecture Search for Deep Stereo Matching| [Paper](https://proceedings.neurips.cc/paper/2020/file/fc146be0b230d7e0a92e66a6114b840d-Paper.pdf)/[Code](https://github.com/XuelianCheng/LEAStereo)|
@@ -448,6 +447,11 @@ CASNet | CVPR | Customizable Architecture Search for Semantic Segmentation | [Pa
 | --- | --- | --- | --- |
 | Auto-ReID | ICCV | Searching for a Part-Aware ConvNet for Person Re-Identification | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Quan_Auto-ReID_Searching_for_a_Part-Aware_ConvNet_for_Person_Re-Identification_ICCV_2019_paper.pdf)/Code  |
 
+### **<h5 id='SM19'>Stereo Matching</h5>**
+| Name | Pub. | Title | Links |
+| --- | --- | --- | --- |
+| AutoDispNet | ICCV | AutoDispNet: Improving Disparity Estimation With AutoML| [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Saikia_AutoDispNet_Improving_Disparity_Estimation_With_AutoML_ICCV_2019_paper.pdf)/Code|
+
 ### **<h5 id='MF19'>Multimodal Fusion</h5>**
 | Name | Pub. | Title | Links |
 | --- | --- | --- | --- |
@@ -469,8 +473,7 @@ PNAS | ECCV | Progressive Neural Architecture Search | [Paper](https://arxiv.org
 DPP-Net | ECCV | Device-aware Progressive Search for Pareto-optimal Neural Architectures | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jin-Dong_Dong_DPP-Net_Device-aware_Progressive_ECCV_2018_paper.pdf)/Code|
 HEAS| ICLR | Hierarchical Representations for Efficient Architecture Search | [Paper](https://openreview.net/pdf?id=BJQRKzbA-)/Code|
 - [Back to content](#Content)
-
-# Survey
+#Survey
 **<h5 id='Sur'></h5>**
 | Pub. | Title | Links |
 | --- | --- | --- |
