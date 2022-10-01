@@ -4,7 +4,6 @@ This repository collects recent NAS based methods and provide a summary (Paper a
 
 ---
 # Content
-<h5 id='Content'></h5>
 + ## 2022
     - [Object Classfication/Detection](#OC22)
     - [Stereo Matching](#SM22)
