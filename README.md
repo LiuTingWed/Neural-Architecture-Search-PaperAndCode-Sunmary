@@ -3,6 +3,11 @@
 This repository collects recent NAS based methods and provide a summary (Paper and Code) by year and task. We hope this repo can help you better understand the trend of NAS era.
 
 ---
+#Change
+:fire: Add 1 NIPS paper 2022
+
+
+---
 # <h1 id='Content'>Content</h1>
 + ## 2022
     - [Object Classfication/Detection](#OC22)
@@ -131,7 +136,7 @@ HyperSegNAS | CVPR | Bridging One-Shot Neural Architecture Search with 3D Medica
 | --- | --- | --- | --- |
 |AutoLossZero | CVPR | Searching Loss Functions from Scratch for Generic Tasks| [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_AutoLoss-Zero_Searching_Loss_Functions_From_Scratch_for_Generic_Tasks_CVPR_2022_paper.pdf)/[Code](https://github.com/cpsxhao/AutoLoss-Zero)|
 |AutoLossGMS | CVPR | Searching Generalized Margin-based Softmax Loss Function for Person Re-identification| [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_AutoLoss-GMS_Searching_Generalized_Margin-Based_Softmax_Loss_Function_for_Person_Re-Identification_CVPR_2022_paper.pdf)/Code|
-
+| :fire:AutoMTL | NeurIPS | A Programming Framework for Automating Efficient Multi-Task Learning|[Paper](https://arxiv.org/pdf/2110.13076.pdf)/[Code](https://github.com/zhanglijun95/AutoMTL)|
 - [Back to content](#Content)
 # 2021
 ### **<h5 id='OC21'>Object Classfication/Detection</h5>**
